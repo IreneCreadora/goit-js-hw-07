@@ -24,7 +24,7 @@ function createGalleryCardsMarkup(array) {
     })
     .join('');
 }
-var lightBox = new SimpleLightbox('.gallery a', {
+const lightBox = new SimpleLightbox('.gallery a', {
   captions: true,
   captionsData: 'alt',
   captionDelay: 250,
